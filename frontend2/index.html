@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Daily Journal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Daily Journal ✨</h1>
+
+        <p>How are you feeling today?</p>
+
+        <select id="mood">
+            <option value="">Select your mood</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="stressed">Stressed</option>
+            <option value="curious">Curious</option>
+            <option value="excited">Excited</option>
+            <option value="tired">Tired</option>
+            <option value="confused">Confused</option>
+        </select>
+
+        <button onclick="getJournalPrompt()">
+            Get Journal Prompt
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
